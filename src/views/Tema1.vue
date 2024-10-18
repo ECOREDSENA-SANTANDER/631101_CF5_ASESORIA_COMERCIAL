@@ -360,14 +360,497 @@
     p Después de que la empresa haya aplicado técnicas de segmentación para identificar sus mercados objetivo (es importante recordar que la empresa puede identificar múltiples segmentos, pero selecciona los más adecuados según sus recursos), y haya definido cómo quiere posicionarse en esos mercados y la comunicación que quiere dirigir a esos segmentos para darse a conocer, es momento de convertir en realidad lo planificado en el plan de mercadeo.
     p.mb-4 Realizar la venta implica un proceso tanto para el vendedor como para la empresa. Es necesario definir la mejor estrategia de venta y preparar las condiciones necesarias para llevarla a cabo. Vender es una disciplina que debe seguirse de manera organizada para alcanzar el nivel de desempeño esperado por la empresa.
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-10
+        .bloque-texto-g.color-acento-contenido.p-5.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/imagen9.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p De acuerdo con InboundCycle, “el proceso de venta es la sucesión de pasos que una empresa realiza desde el momento en que intenta captar la atención de un potencial cliente hasta que la transacción final se lleva a cabo”.     
+
+    p.mb-4 El proceso de la venta o ciclo de la venta, según los postulados de Hair et al. (2010, p. 92), tiene las siguientes fases:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-10
+        .titulo-sexto.color-secundario.mb-4
+          h5 Figura 3. 
+          | Ciclo de la venta
+        img(src='@/assets/curso/temas/tema1/fig3.png', alt='La figura presenta de manera gráfica en proceso de la venta. Se identifica como Ciclo de la venta y sus respectivas fases unidas con una línea punteada en forma de circunferencia: prospección, acercamiento, entrevistas, presentación/demostración, negocios, cierre, postventas y relaciones ALP. A estos subprocesos los rodean dos flechas junto con la palabra “Referidos”, que implica la participación de estos actores e importancia en todo el ciclo principal.')
+        figcaption.text-center Nota. Adaptada de Hair et al.(2010).
+
+    p.mb-5 Cada una de las fases mencionadas en el ciclo de la venta, tiene sus propios procesos, los cuales se mencionan a continuación:
+
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/icono.svg', alt='')
+        h3.mb-0.ms-2 Prospección
+
+    .row.justify-content-center.align-items-center
+      .col-lg-12
+        .cajon.color-acento-contenido.p-4.mb-4
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              .row.mx-5
+                p La venta se inicia con la búsqueda permanente de nuevos clientes, la empresa cuenta con:
+            .col-lg-8
+              ul.lista-ul--color.fa-al
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 #[b Clientes actuales:] son los clientes que actualmente le compran a la empresa.           
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 #[b Clientes potenciales:] son aquellos que están en posición de comprarle, pero que aún no lo han hecho           
+
+    p El esfuerzo de la prospección es identificar y capturar a esos clientes, y llevarlos a otros procesos en el ciclo de la venta. Estas etapas corresponden, según Torres (2014) a:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-4
+        .row.bg5.borde-redondo.p-5.mx-1
+          h4 Etapa 1. 
+          p Identificar a los posibles clientes en perspectiva.
+      .col-sm-12.col-md-12.col-lg-4
+        .row.bg5.borde-redondo.p-5.mx-1
+          h4 Etapa 2. 
+          p Calificar a los candidatos en función de su potencial de compra.
+      .col-sm-12.col-md-12.col-lg-4
+        .row.bg5.borde-redondo.p-5.mx-1
+          h4 Etapa 3. 
+          p Elaborar una lista de clientes en perspectiva.
+
+    p.mb-4 Siguiendo a Globalkan (2021), los diferentes tipos de prospectos por su personalidad, que son importantes que el vendedor conozca y tenga claro cómo enfrentarlos, son:
+
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-3
+        img(src='@/assets/curso/temas/tema1/imagen10.png', alt='')
+      .col-lg-3.p-1
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente amable.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente dominante.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente distraído.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente desubicado.]
+      .col-lg-3.p-1
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente reservado.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente indeciso.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente exigente.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b El cliente impaciente.]
+      .col-lg-3.p-1
+        .row.align-items-center.justify-content-center
+          .row.mb-2.mx-1
+            .tarjeta--boton.tema1
+              .row.ps-3.mt-2
+                p #[b El cliente negativo.]
+          .row.mb-2.mx-1
+            .tarjeta--boton.tema1
+              .row.ps-3.mt-2
+                p #[b El cliente conflictivo.]
+          .row.mb-2.mx-1
+            .tarjeta--boton.tema1
+              .row.ps-3.mt-2
+                p #[b El cliente negociador.]
+    
+    p.bg2.borde-redondo.p-3.mb-5 Nota. Cada uno de estos clientes tiene unos comportamientos y su manera de tratarlos para que sea favorable a la venta. 
+
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/icono.svg', alt='')
+        h3.mb-0.ms-2 Acercamiento
+    p Cuando el vendedor tiene la lista o base de datos de los prospectos que le servirán al propósito de la venta, se pasa a la etapa de acercamiento, donde es el momento de recopilar información detallada de cada prospecto. Hair et al. (2010), recomienda los siguientes pasos:
+        
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        PasosA.color-acento-contenido.mb-2(tipo="n")
+          .row.align-items-center.justify-content-center
+            .col-md-9.mb-4.mb-md-0
+              h3 Preparación de la visita inicial. 
+              p Buscar hacer contacto, enviándole información del producto o la empresa.
+            .col-md-3
+              img(src='@/assets/curso/temas/tema1/paso1-1.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-3.mb-4.mb-md-0
+              img(src='@/assets/curso/temas/tema1/paso1-2.png', alt='Texto que describa la imagen')
+            .col-md-9
+              h3 Buscar establecer la cita de ventas.
+              p Puede hacerle una llamada, o enviarle un correo notificando al cliente, solicitando su autorización de visita.
+          .row.align-items-center.justify-content-center
+            .col-md-9.mb-4.mb-md-0
+              h3 Buscar información específica del cliente. 
+              p Información particular que no se logró en la prospección, información referente a su comportamiento comercial, o a sus experiencias.
+            .col-md-3
+              img(src='@/assets/curso/temas/tema1/paso1-3.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-3.mb-4.mb-md-0
+              img(src='@/assets/curso/temas/tema1/paso1-4.png', alt='Texto que describa la imagen')
+            .col-md-9
+              h3 Identificar las necesidades del cliente.
+              p Esto es importante pues permite ir con mejores argumentos al posible cliente. Conocer la hora en que puede recibir, y qué referencias similares utiliza.	
+          .row.align-items-center.justify-content-center
+            .col-md-9.mb-4.mb-md-0
+              h3 Identificar las características, las ventajas y los beneficios del producto. 
+              p Esto dará seguridad en la presentación y demostración del producto.
+            .col-md-3
+              img(src='@/assets/curso/temas/tema1/paso1-5.png', alt='Texto que describa la imagen')
+          .row.align-items-center.justify-content-center
+            .col-md-3.mb-4.mb-md-0
+              img(src='@/assets/curso/temas/tema1/paso1-6.png', alt='Texto que describa la imagen')
+            .col-md-9
+              h3 Preparar la presentación de ventas.
+              p Diseñar una presentación estructurada y atractiva que destaque los puntos clave del producto.	
+          .row.align-items-center.justify-content-center
+            .col-md-9.mb-4.mb-md-0
+              h3 Planear y ensayar su enfoque para el prospecto. 
+              p Practicar la presentación y anticipar posibles preguntas u objeciones para transmitir con confianza del producto o servicio objeto de venta.
+            .col-md-3
+              img(src='@/assets/curso/temas/tema1/paso1-7.png', alt='Texto que describa la imagen')
+
+    p.mb-5 Siguiendo estos pasos está listo para enfrentarse a los diferentes prospectos, con alta probabilidad de éxito. 
+
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/icono.svg', alt='')
+        h3.mb-0.ms-2 Entrevista
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-7
+        p En esta etapa, el vendedor debe estar muy bien preparado, siguiendo todas las recomendaciones previas. Un error puede echar a perder todo el trabajo realizado anteriormente, resultando en la pérdida de tiempo y dinero. Lo más importante aquí es conocer al cliente, romper el hielo y confirmar las necesidades del cliente de manera presencial. 
+        p Durante la entrevista, es esencial que el vendedor establezca una conexión genuina con el cliente. Puede comenzar con una conversación amistosa ayuda a crear un ambiente cómodo y de confianza, escuchando atentamente para entender las necesidades del cliente y hacerle preguntas abiertas que inviten a compartir información valiosa. Además, mostrar empatía y comprensión es crucial para demostrar interés en ayudar al cliente. Finalmente, presentar soluciones personalizadas y acordar los próximos pasos consolidará la relación y facilitará una posible venta.
+      .col-11.col-md-10.col-lg-5
+        img(src='@/assets/curso/temas/tema1/imagen11.png', alt='')
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-10
+        .row
+          .cajon.color-acento-contenido.p-4
+            .row.align-items-center.justify-content-center
+              .col-10
+                .h3 Presentación y demostración
+                p En esta etapa, la recomendación principal es mantener una comunicación persuasiva, puesto que este es el momento donde la preparación en las fases anteriores se pone en práctica. 
+                p El vendedor debe tener en cuenta en la presentación del portafolio de productos tres aspectos importantes: 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4.p-1
+        .row.borde-redondo.bg6.mx-2
+          p.text-center.p-4 #[b Las características del producto, los beneficios y las ventajas.]
+      .col-lg-4.p-1
+        .row.borde-redondo.bg6.mx-2
+          p.text-center.p-4.mt-4 #[b Estimular el deseo en ese prospecto.]
+      .col-lg-4.p-1
+        .row.borde-redondo.bg6.mx-2
+          p.text-center.p-4 #[b Procurar involucrar al prospecto en la demostración del producto.]
+
+    p Existen tres tipos presentaciones:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-8.col-md-10.col-lg-4
+        img(src='@/assets/curso/temas/tema1/imagen12.png', alt='')
+      .col-sm-12.col-md-12.col-lg-8
+        TabsA.color-acento-botones
+          .tarjeta.color-secundario--borde.p-4(titulo="De memoria")
+            p.p-4 El vendedor actúa de manera mecánica, no permite la flexibilidad ni el manejo de la presentación.
+          .tarjeta.color-secundario--borde.p-4(titulo="Pinceladas")
+            p.p-4 En esta se elabora un resumen de los puntos importantes de la presentación, es más flexible que la anterior.
+          .tarjeta.color-secundario--borde.p-4(titulo="Programada")
+            p.p-4 El vendedor se apoya en ayudas que le permitan hacer mejor su presentación. Puede utilizar material audiovisual (folletos publicitarios, catálogos, vídeos, muestras del producto), y utilizar plataformas sincrónicas de ser necesario.
+    
+    p.mb-4 Entre otras recomendaciones a implementar, se tienen: 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-10
+              ul.lista-ul--color.fa-al
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 Convertir las ventajas del producto en beneficios para el prospecto.       
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 Detectar en las necesidades de los clientes cuáles se asocian más a las ventajas del producto y repetirlas. 
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 Participación del prospecto en la demostración. 
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 La posición que debe mantener con el prospecto debe ser en ángulo de 90º. 
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 Estar atento a las emociones del prospecto y dirigirse ahí.
+                li 
+                  i.fas.fa-check-circle
+                  span.mb-0 Escuchar con cuidado las respuestas verbales y corporales.
+          
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-10
+        .cajon.color-acento-contenido
+          p.p-5 En una demostración, el vendedor debe tener en cuenta varias labores esenciales para asegurar una presentación efectiva. Cada producto y servicio tiene sus propias características y beneficios, por lo que es crucial mostrar el producto, realizar pruebas y permitir la degustación cuando sea aplicable. Además, el vendedor debe facilitar la observación del producto, explicar características adicionales, responder a las inquietudes de los clientes y, si es necesario, presentar pruebas de laboratorio. Es fundamental que el vendedor se apoye en técnicas de ventas adecuadas para lograr una venta eficaz.
+          
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/icono.svg', alt='')
+        h3.mb-0.ms-2 Negociación
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-7
+        p En la fase anterior, los clientes aún no han decidido la compra, pero pueden surgir una serie de inquietudes y preguntas que deben ser resueltas con contundencia. Se dice de manera coloquial, que la venta se inicia cuando el prospecto se niega o dice “No”. Esa serie de inquietudes que tiene el cliente sobre el producto se llaman objeciones, y son, de acuerdo con Hair et al. (2010): “Simplemente una solicitud de más información, de manera que el prospecto pueda justificar una decisión de compra”.
+        p Una excelente presentación lleva en muchos casos a pocas preguntas de parte del cliente, y a concretar de manera rápida la venta. Hair et al. (2010) señalan las siguientes objeciones:
+      .col-11.col-md-10.col-lg-5
+        img(src='@/assets/curso/temas/tema1/imagen13.png', alt='')
+
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-5.p-1
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones al producto.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones al precio.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones a la promoción.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones a la distribución.]
+      .col-lg-5.p-1
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones de capital.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones a la fuente.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones a las necesidades.]
+        .row.mb-2.mx-1
+          .tarjeta--boton.tema1
+            .row.ps-3.mt-2
+              p #[b Objeciones latentes.]
+
+    p “Las objeciones comunes se refieren al precio, satisfacción con el proveedor actual, renuencia a tomar decisiones en el momento, no hay necesidad inmediata del producto, sentimientos negativos hacia el vendedor, entre otras” (Torres, 2014).
+    p.mb-4 Es así, como el vendedor debe determinar cuáles son los obstáculos que impiden a sus posibles clientes comprar, para superarlos de forma inmediata.
+
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/icono.svg', alt='')
+        h3.mb-0.ms-2 Cierre de la venta
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-6
+        p El principal objetivo de la venta es concluir exitosamente la negociación. Durante este proceso, se llevan a cabo los protocolos necesarios para que los acuerdos adquieran un carácter legal, logrando que el vendedor obtenga la firma de la orden de pedido. Este paso requiere, además, que el vendedor posea habilidades y técnicas efectivas para el cierre de la venta. 
+        p A continuación, Hair et al. (2010, p.105) consideran varios tipos de cierre de la venta:      
+        ul.lista-ul--color.fa-al
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 Cierres de aclaración.     
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 Cierres psicológicos. 
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 Cierres directos.
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 Cierres de concesión.
+          li 
+            i.fas.fa-check-circle
+            span.mb-0 Cierres de la venta perdida.
+      .col-9.col-md-8.col-lg-4
+        img(src='@/assets/curso/temas/tema1/imagen14.png', alt='')
+
+    .subt.mb-4(data-aos="fade-right")
+      .d-flex.align-items-center.mb-1
+        img(src='@/assets/curso/temas/icono.svg', alt='')
+        h3.mb-0.ms-2 Posventa y relaciones a largo plazo    
+
+    .row.justify-content-center.align-items-center
+      .col-sm-12.col-md-12.col-lg-7
+        p Las actividades de posventa consisten en continuar el esfuerzo inicial de ventas mediante acciones posteriores al cierre. Estas acciones incluyen el seguimiento con el cliente para asegurar su satisfacción, resolver cualquier problema que pueda surgir, y ofrecer soporte continuo. Mantener una comunicación regular y personalizada es clave para fortalecer la relación con el cliente y fomentar la lealtad a largo plazo. Además, estas actividades permiten identificar oportunidades adicionales de venta, mejorar la percepción de la marca y asegurar la continuidad del negocio a través de recomendaciones y repeticiones de compra.
+        p.mb-4 Para alcanzar ese objetivo, es necesario dar una gama de servicios complementarios, que hagan que la relación sea muy fuerte y no se pierda jamás, como son:    
+        .row.justify-content-center.align-items-center
+          .cajon.color-acento-contenido.p-4.mb-4  
+            .row
+              .col-lg-6.ps-5              
+                ul.lista-ul--color.fa-al
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Garantía.     
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Plazos de entrega.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Cartera.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Facturación.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Asesoría permanente.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Servicio técnico.
+              .col-lg-6
+                h3 Además de: 
+                ul.lista-ul--color.fa-al
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Ser agradecido en la compra.   
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Verificar que el cliente reciba su compra.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Evidenciar la instalación.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Hacer venta cruzada.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Lograr referidos.
+      .col-9.col-md-8.col-lg-5
+        img.mt-5(src='@/assets/curso/temas/tema1/imagen15.png', alt='')
 
     separador
     #t_1_4.titulo-segundo.mb-4
       h2 1.4 Estrategias de ventas
 
+    p Son esas acciones que buscan el cumplimiento de los objetivos propuestos por la empresa para alcanzar en la venta de su portafolio de productos. De acuerdo con Igape (s.f.), la estrategia es:
+    p “Un conjunto consciente, racional y coherente de decisiones sobre acciones a emprender y sobre recursos a utilizar, que permite alcanzar los objetivos finales de la empresa u organización”. 
+    p.mb-4 Para mayor comprensión del tema, se invita a consultar el siguiente video: 
+
+    .row.justify-content-center.align-items-center
+      .col-sm-12.col-md-12.col-lg-10
+        figure
+          .video
+            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/mwk2MnDXtPI?si=EkjyKLj5QVYpi7OA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video: Estrategias de ventas
+
     separador
     #t_1_5.titulo-segundo.mb-4
       h2 1.5 Técnicas de la venta
+
+    p.mb-4 Son una serie de procedimientos, acciones y protocolos para lograr el resultado de ventas. Estas técnicas de ventas acompañan al vendedor a realizar el proceso de la venta, dependiendo el tipo de venta: técnica o no técnica. A continuación, pasaremos a estudiar cada una.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .cajon.color-acento-contenido.p-4
+          .row.align-items-center.justify-content-center
+            .col-lg-11
+                .h5 Técnica de venta basada en el método AIDA
+                p En el momento en que el vendedor realiza cada una de las etapas del proceso de la venta, y llega a la etapa de entrevista o negociación, deberá realizar una conversación con el prospecto y esta conversación estará apoyada por una técnica, en este caso el método AIDA. Esta conversación puede realizarse de manera presencial, telefónica o virtual. 
+                p El método AIDA, es un modelo que permite presentar el producto mediante un proceso para de esa manera, poder obtener la respuesta deseada de su público objetivo:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-5
+        TabsA.color-acento-botones
+          .tarjeta.color-fondo3--borde.p-2(titulo="A")
+            p.p-4 #[b Atención] - Atraer la #[b atención] del cliente.
+          .tarjeta.color-fondo3--borde.p-2(titulo="I")
+            p.p-4 #[b Interés] - Crear y retener el #[b interés] del cliente.
+          .tarjeta.color-fondo3--borde.p-2(titulo="D")
+            p.p-4 #[b Deseo] - Provocar el #[b deseo] de adquirir el producto.
+          .tarjeta.color-fondo3--borde.p-2(titulo="A")
+            p.p-4 #[b Acción] - Conseguir la #[b acción] de compra.
+          
+    p.mb-4 A continuación, se presenta gráficamente el método.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-md-12.col-lg-10
+            .titulo-sexto.color-secundario.mb-4
+              h5 Figura 4. 
+              | El método AIDA
+            img(src='@/assets/curso/temas/tema1/fig4.png', alt='')
+
+    p El proceso de la venta debe estar en sintonía con el proceso de compra del cliente, este ciclo de acuerdo con Antevenio (2020), consta de cuatro fases por las que atraviesa un cliente, desde que se da cuenta de su necesidad, hasta que tiene la capacidad de satisfacerla comprando el producto o servicio, las que se pueden interrelacionar con el método AIDA, como se muestra a continuación.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-10
+            .titulo-sexto.color-secundario.mb-4
+              h5 Figura 5. 
+              | El ciclo de compra y el método AIDA
+            img(src='@/assets/curso/temas/tema1/fig5.png', alt='')
+            figcaption.mt-4 Nota. Adaptada de Antevenio (2020). 
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .cajon.color-acento-contenido.p-4.mb-4
+          .row.align-items-center.justify-content-center
+            .col-lg-11
+              .h2 Técnica de venta basada en el método SPIN
+              p Es otra técnica de ventas que puede utilizar el vendedor según la necesidad en el proceso de ventas es el Spin Selling, creada por Neil Rackham en 1988. La técnica se basa en realizar una serie de preguntas sobre situación, problema, implicación y necesidad de pago. Cada una de las preguntas tienen un propósito claro, y se deben hacer en el orden propuesto por Rackham. 
+
+    p Consta de cuatro etapas:
+
+    .row.mb-4
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-morado-claro.p-4
+          .tarjeta-numerada__numero.color-morado-claro
+            .h2 1
+          p.text-center 
+            b Situación
+          p.text-center.mb-5 Etapa donde se procura ganar confianza y conseguir información.
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-morado-claro.p-4
+          .tarjeta-numerada__numero.color-morado-claro
+            .h2 2
+          p.text-center 
+            b Problema
+          p.text-center.mb-5 Llevará al cliente a conocer que tiene un problema, o potencial problema.
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-morado-claro.p-4
+          .tarjeta-numerada__numero.color-morado-claro
+            .h2 3
+          p.text-center 
+            b Implicación
+          p.text-center.mb-4 Las implicaciones que puede generar ese problema para, finalmente, identificar qué necesita una solución.
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-morado-claro.p-4
+          .tarjeta-numerada__numero.color-morado-claro
+            .h2 4
+          p.text-center 
+            b Necesidad
+          p.text-center.mb-0 Es entonces cuando se presentará la solución a problemas, implicaciones y necesidad de solución del cliente: el producto.
+
+    p.mb-4 El método permite identificar cómo el cliente expresa sus necesidades, bien sean necesidades implícitas o explícitas, como se describen a continuación:
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-5
+        .row.bg10.borde-redondo.p-5.mx-1
+          h4 Necesidades implícitas o generales:
+          p Son aquellas que muestran los problemas del cliente.
+          p Las muestran cuando dicen “No estoy contento con esto…”. En este punto, el cliente no está listo para comprar… todavía.
+      .col-sm-12.col-md-12.col-lg-5
+        .row.bg10.borde-redondo.p-5.mx-1
+          h4 Necesidades explícitas o particulares: 
+          p.mb-1 Para que un cliente compre, su necesidad debe ser ya explícita, que lo esté expresando. Debe demostrarlo mediante frases que expresen deseo como “Necesito un XXX que tenga XXX característica”, si tuviéramos XXX y XXX, entonces podríamos, XXX”.
+
+    p.mb-4 Y los cuatro tipos de preguntas, que conducen al éxito en la venta SPIN, son:
 
     separador
     #t_1_6.titulo-segundo.mb-4
