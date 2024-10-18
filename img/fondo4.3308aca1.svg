@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="502.439" height="252.969" viewBox="0 0 502.439 252.969">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_402342" data-name="Rectángulo 402342" width="501.231" height="252.969" rx="20" transform="translate(0)" fill="#6e3dc6"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#be79ca"/>
+      <stop offset="1" stop-color="#22005e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.106" y1="0.024" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#75baf1"/>
+      <stop offset="1" stop-color="#be79ca"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1102116" data-name="Grupo 1102116" transform="translate(-812.561 -23001.75)">
+    <rect id="Rectángulo_402341" data-name="Rectángulo 402341" width="502.439" height="252.969" rx="20" transform="translate(812.561 23001.75)" fill="#75baf1" opacity="0.5"/>
+    <g id="Enmascarar_grupo_1098731" data-name="Enmascarar grupo 1098731" transform="translate(813.769 23001.75)" opacity="0.5" clip-path="url(#clip-path)">
+      <g id="Grupo_1100734" data-name="Grupo 1100734" transform="translate(-281.057 -277.135)">
+        <path id="Trazado_876140" data-name="Trazado 876140" d="M441.869,0C685.906,0,883.737,97.28,883.737,217.281S685.906,434.563,441.869,434.563,0,337.282,0,217.281,197.831,0,441.869,0Z" transform="translate(1297.084 743.746) rotate(180)" opacity="0.5" fill="url(#linear-gradient)"/>
+        <path id="Elipse_4044" data-name="Elipse 4044" d="M234.107,31.113c-94.2,0-170.835,37.685-170.835,84.005s76.636,84.005,170.835,84.005,170.835-37.685,170.835-84.005S328.306,31.113,234.107,31.113m0-31.113C363.4,0,468.215,51.54,468.215,115.118S363.4,230.236,234.107,230.236,0,178.7,0,115.118,104.813,0,234.107,0Z" transform="translate(0 464.991)" opacity="0.5" fill="url(#linear-gradient-2)"/>
+        <path id="Elipse_4044-2" data-name="Elipse 4044" d="M533.117,70.852c-214.513,0-389.032,85.817-389.032,191.3s174.519,191.3,389.032,191.3,389.032-85.816,389.032-191.3-174.519-191.3-389.032-191.3m0-70.852c294.433,0,533.117,117.369,533.117,262.151S827.55,524.3,533.117,524.3,0,406.933,0,262.151,238.685,0,533.117,0Z" transform="translate(625.487)" opacity="0.8" fill="url(#linear-gradient-2)"/>
+        <path id="Elipse_4044-3" data-name="Elipse 4044" d="M11.85,1.575c4.768,0,8.648,1.908,8.648,4.252s-3.879,4.252-8.648,4.252S3.2,8.172,3.2,5.827,7.082,1.575,11.85,1.575M11.85,0C5.306,0,0,2.609,0,5.827s5.306,5.827,11.85,5.827S23.7,9.045,23.7,5.827,18.4,0,11.85,0Z" transform="translate(1004.703 501.688)" fill="#fff"/>
+        <ellipse id="Elipse_11565" data-name="Elipse 11565" cx="6.595" cy="3.243" rx="6.595" ry="3.243" transform="translate(971.728 350.261)" fill="#fff"/>
+        <ellipse id="Elipse_11566" data-name="Elipse 11566" cx="6.595" cy="3.243" rx="6.595" ry="3.243" transform="translate(878.298 523.221)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
