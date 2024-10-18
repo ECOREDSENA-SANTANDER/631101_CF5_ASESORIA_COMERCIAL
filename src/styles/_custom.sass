@@ -18,11 +18,10 @@
   100%
     transform: translateY(0px)
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span 
-  color: #fff
+// títulos y configuración de banner interno y portada
 
-.cajon.color-acento-contenido 
-  background-color: #E2D8F4
+.titulo-principal.color-acento-contenido .titulo-principal__numero span 
+  color: black
 
 .titulo-segundo:after 
   content: ''
@@ -30,7 +29,7 @@
   height: 4.5px
   width: 140px
   border-left: solid 50px
-  border-left-color: #3AE3FE
+  border-left-color: #BE79CA
   background-color: #e8e8e8
 
 .banner-interno__fondo    
@@ -40,12 +39,110 @@
 .banner-principal__row 
   justify-content: space-around
 
+.subt
+  img
+    width: 50px
+  h3
+    color: black
 
-// otros
+// colores texto, fondos, tamaño imagen
+
+.img65
+  width: 65px  !important
+
+.img90
+  width: 90px  !important
+
+.img250
+  width: 250px !important
+
+.img200
+  width: 200px !important
+
+.img120
+  with: 120px !important
 
 .bg1
   background-color: #D5EAFB
 
+.bg2
+  background-color: #E8E8E8
+
+.bg3
+  background-color: #6E3DC6
+
+.bg4
+  background: url('../assets/curso/temas/tema1/fondo1.svg')
+  background-repeat: no-repeat
+
+.borde-redondo
+  border-radius: 25px
+
+.borde-redondo-abajo
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+
+.borde-redondo-arriba
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+
 .fa-check-circle:before, .fa-circle-check:before 
-    content: "\f058"
-    color: #6E3DC6
+  content: "\f058"
+  color: #6E3DC6
+
+.tarjeta-numerada
+  border: solid 3px
+
+.tarjeta-numerada.color-morado-claro .tarjeta-numerada__numero 
+  background-color: #D1BCFF
+
+.tarjeta-numerada.color-morado-claro
+  border-color:  #D1BCFF
+
+.bgmoradoclaro
+  background-color: #D1BCFF
+
+.cajon.color-acento-contenido 
+  background-color: #D1BCFF
+
+// tab tema 1
+
+.tabs-b
+  border-bottom: none !important
+
+// viñetas
+
+.fa-ol
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 20px
+      font-size: 1.4rem
+
+.fa-al
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 19px
+      font-size: 1.4rem
+
+// Acordion tema 1
+
+.acordion__accion__btn--a
+  background-color: #BE79CA
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+
+.acordion .tarjeta--azul
+  background-color: #6E3DC6
+
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #F2E4F5
+  h3
+    color: black
+.acordion__titulo
+  h3
+    color: #fff
