@@ -905,7 +905,12 @@
 
     p.mb-4 La venta consultiva, por sus características, tiene mayor aceptación entre los clientes, genera confianza y fidelidad, promueve el boca a boca, atrae a clientes más leales y evita la cancelación de pedidos.
           
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .titulo-segundo.cambio
+          h3.mb-0.mt-0 Las técnicas para utilizar en la venta consultiva son:
+
+    .row.justify-content-center.align-items-center.mb-4    
       .col-sm-12.col-md-12.col-lg-5
         .row.bg11.mx-1
           img(src='@/assets/curso/temas/tema1/imagen17.png', alt='')
