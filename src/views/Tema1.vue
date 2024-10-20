@@ -852,17 +852,116 @@
 
     p.mb-4 Y los cuatro tipos de preguntas, que conducen al éxito en la venta SPIN, son:
 
+    .row.justify-content-center.align-items-center
+      .col-lg-12
+        ImagenInfografica.color-primario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/imagen16.png', alt='Texto que describa la imagen')
+          .tarjeta.morado-claro.p-3(x="24%" y="37%" numero="1")
+            p #[b Situación:] estas preguntas buscan reunir datos, hechos e información relevante sobre la situación actual del cliente. Es fundamental indagar sobre el cliente, su negocio y sus operaciones, centrándose en su necesidad. Se deben evitar preguntas obvias y aquellas cuya respuesta ya está disponible en otras fuentes. Es importante hacer preguntas relevantes y con un propósito claro, evitando preguntar por preguntar.
+          .tarjeta.morado-claro.p-3(x="35%" y="87%" numero="2")
+            p #[b Problema:] si la empresa no puede resolver un problema del cliente, no habrá venta posible. Identificar y abordar los problemas que se pueden solucionar permite aportar valor. Es crucial investigar cuáles son los problemas, dificultades e insatisfacciones del cliente. De esta manera, se descubrirán sus necesidades implícitas y cómo encaja la oferta de la empresa para resolverlas.
+          .tarjeta.morado-claro.p-3(x="47%" y="28%" numero="3")
+            p #[b Implicación:] estas preguntas toman un problema del cliente y exploran sus efectos o consecuencias. Ayudan al cliente a comprender la seriedad o urgencia del problema, amplificando su importancia en su mente. Se debe evitar proyectar escenarios apocalípticos, ya que esto podría deprimir o asustar al cliente. En cuanto el cliente comprenda las implicaciones del problema, es importante pasar a la siguiente fase de preguntas evitando demoras.
+          .tarjeta.morado-claro.p-3(x="58%" y="74%" numero="4")
+            p #[b Necesidad / Beneficio:]  estas preguntas muestran el valor de la solución ante los ojos del cliente. Se centran en los aspectos positivos de la solución que combaten los efectos negativos del problema, ayudando a reenfocar la atención del cliente en la solución más que en el problema. Además, permiten que sea el propio cliente quien mencione las ventajas de la solución en lugar de que lo haga el vendedor. Este tipo de preguntas también reducen las objeciones. 
+
     separador
     #t_1_6.titulo-segundo.mb-4
       h2 1.6 Venta consultiva
+    p.mb-4 La venta consultiva se aplica a situaciones donde la decisión de compra toma tiempo, como en la venta de computadoras y electrodomésticos. En estos casos, se requiere asesoría especializada y un cumplimiento adecuado de acuerdo con las necesidades y recursos del cliente.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-sm-12.col-md-12.col-lg-10
+        .row.justify-content-center.align-items-center
+          .col-sm-12.col-md-12.col-lg-5
+            .cajon.color-acento-contenido.p-4.mb-4
+              p “La venta consultiva es un tipo de venta en la que el vendedor también actúa como consultor. Más que vender a toda costa, el profesional escucha al posible cliente, comprende sus necesidades y buscar conjuntamente la solución más adecuada” (RD Station, 2020).
+          .col-sm-12.col-md-12.col-lg-7
+            p El proceso de la venta consultiva sigue el mismo proceso del proceso de la venta:
+            ul.lista-ul--color.fa-al
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Prospección.   
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Acercamiento.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Entrevista.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Presentación y demostración.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Negociación.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Cierre.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Posventas y relaciones a largo plazo.
+
+    p.mb-4 La venta consultiva, por sus características, tiene mayor aceptación entre los clientes, genera confianza y fidelidad, promueve el boca a boca, atrae a clientes más leales y evita la cancelación de pedidos.
+          
+    .row.justify-content-center.align-items-center.mb-4
+      .col-sm-12.col-md-12.col-lg-5
+        .row.bg11.mx-1
+          img(src='@/assets/curso/temas/tema1/imagen17.png', alt='')
+        .row.bg10.p-5.mx-1
+          h4 #[em Cross selling] o venta cruzada
+          p Esta técnica se aplica cuando el cliente ha aceptado la compra, entonces se le ofrecen productos compatibles. Ejemplo: el cliente compra un computador de mesa, se le ofrece el mueble, la impresora.
+      .col-sm-12.col-md-12.col-lg-5
+        .row.bg11.mx-1
+          img(src='@/assets/curso/temas/tema1/imagen18.png', alt='')
+        .row.bg10.p-5.mx-1
+          h4 #[em Upselling] o venta adicional 
+          p Esta técnica se aplica cuando el cliente desea un producto ya referenciado por él y ha aceptado la compra, entonces se le presenta otro artículo con las mismas características con mayor valor agregado y más costoso.
 
     separador
     #t_1_7.titulo-segundo.mb-4
       h2 1.7 Clínicas de venta
 
+    .row.justify-content-center.align-items-center
+      .col-sm-12.col-md-12.col-lg-7
+        p Las clínicas de venta son actividades de capacitación implementadas por las empresas para mantener a su fuerza de ventas actualizada en habilidades técnicas y en el proceso de venta adoptado por la organización. Estas se realizan mediante juegos de roles y dramatizaciones, lo que permite a los vendedores practicar y mejorar su desempeño. Además, las clínicas de venta proporcionan un espacio para que los vendedores compartan sus experiencias y corrijan posibles errores en la práctica. Los tipos de clínicas de venta incluyen:
+        ul.lista-ul--color.fa-al.ps-5
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Clínicas para el cierre de ventas.   
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Clínicas para el abordaje de un cliente.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Clínicas para la presentación de un producto o servicio.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Clínicas para mejorar el uso del lenguaje (corporal y verbal).
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Clínicas para el manejo de objeciones.
+                  li 
+                    i.fas.fa-check-circle
+                    span.mb-0 Clínicas para la atención telefónica de un cliente.
+        .cajon.color-acento-contenido.p-5
+          .h3.mx-5 ¿Cómo organizar una clínica de ventas?
+          p.mx-5 Es recomendable trabajar con los roles de diferentes tipos de clientes; por cada tipo de cliente se debe elaborar un guion a seguir por los vendedores que realizan la actividad. Para realizar seguimiento a la actividad, se debe hacer una lista de chequeo con indicadores que expresen el comportamiento de los vendedores en la actividad.
+      .col-10.col-md-10.col-lg-5
+        img(src='@/assets/curso/temas/tema1/imagen19.png', alt='')
+    
+    p.mb-4.mt-4 Por ejemplo, se puede trabajar bajo roles como los siguientes:
+    
+    
     separador
     #t_1_7.titulo-segundo.mb-4
       h2 1.8 Manejo de objeciones
+
+    p Las objeciones deben verse como algo normal en el proceso de la venta, ocurren a cada momento, y el vendedor consciente de esto, debe estar preparado y anticiparse a responder esas preguntas antes que las hagan, por eso, es fundamental el conocimiento de las necesidades del cliente. Se considera que, entre menos preguntas, la labor de ventas es más eficiente. Según Artal (2010, p. 324), “una objeción es en realidad una oportunidad”. En ella el vendedor debe ver la oportunidad de tener mejores relaciones con el cliente, y asegurar la venta.
+    p Saber responder ante una objeción, se convierte en una habilidad del vendedor y esas habilidades se adquieren en el entrenamiento constante y las clínicas de ventas. Hair et al. (2010, p. 103), aportan las siguientes técnicas acompañadas de frases de enlace o acciones para iniciar la objeción:
+
+
 
 
 </template>
