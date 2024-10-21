@@ -957,14 +957,108 @@
         img(src='@/assets/curso/temas/tema1/imagen19.png', alt='')
     
     p.mb-4.mt-4 Por ejemplo, se puede trabajar bajo roles como los siguientes:
-    
-    
+
+    SlyderF(columnas="col-lg-5 col-xl-3 col-md-5")
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-1.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Amable
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-2.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Dominante
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-3.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Distraido
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-4.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Desubicado
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-5.png' alt='').img90
+          .tarjeta.nueva
+            h3.h3.text-center.p-3.mt-3 Reservado
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-6.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Indeciso
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-7.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Exigente
+
+
+
+
+
+
     separador
     #t_1_7.titulo-segundo.mb-4
       h2 1.8 Manejo de objeciones
 
     p Las objeciones deben verse como algo normal en el proceso de la venta, ocurren a cada momento, y el vendedor consciente de esto, debe estar preparado y anticiparse a responder esas preguntas antes que las hagan, por eso, es fundamental el conocimiento de las necesidades del cliente. Se considera que, entre menos preguntas, la labor de ventas es más eficiente. Según Artal (2010, p. 324), “una objeción es en realidad una oportunidad”. En ella el vendedor debe ver la oportunidad de tener mejores relaciones con el cliente, y asegurar la venta.
-    p Saber responder ante una objeción, se convierte en una habilidad del vendedor y esas habilidades se adquieren en el entrenamiento constante y las clínicas de ventas. Hair et al. (2010, p. 103), aportan las siguientes técnicas acompañadas de frases de enlace o acciones para iniciar la objeción:
+    p.mb-4 Saber responder ante una objeción, se convierte en una habilidad del vendedor y esas habilidades se adquieren en el entrenamiento constante y las clínicas de ventas. Hair et al. (2010, p. 103), aportan las siguientes técnicas acompañadas de frases de enlace o acciones para iniciar la objeción:
+
+    .row.justify-content-center.align-items-center.mb-2
+      .col-lg-4.p-1
+        .tarjeta.nueva1
+          h5.text-center.mt-4 Estrategias de evasión
+          p.text-center.mb-0 Ahora llegaré a eso. 
+          p.text-center.mb-5 Dejar pasar.
+      .col-lg-4.p-1
+        .tarjeta.nueva1
+          h5.text-center.mt-4 Estrategias de proporcionar pruebas
+          p.text-center.mb-0 Antecedentes.
+          p.text-center.mb-0 Demostración.
+          p.text-center.mb-4 Proponer uso de pruebas.
+      .col-lg-4.p-1
+        .tarjeta.nueva1
+          h5.text-center.mt-4 Estrategias de negación
+          p.text-center.mb-0 Negación indirecta.
+          p.text-center.mb-5 Negación directa.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4.p-1
+        .tarjeta.nueva1
+          h5.text-center.mt-4 Estrategias de compensación
+          p.text-center.mb-0 #[em Boomerang].
+          p.text-center.mb-0 Compensación o contrapeso.
+          p.text-center.mb-0 Convenir o neutralizar.
+          p.text-center Seguir el humor.
+      .col-lg-4.p-1
+        .tarjeta.nueva1
+          h5.text-center.mt-4 Estrategias de cambio de enfoque
+          p.text-center.mb-0 Producto alterno.
+          p.text-center.mb-0 Siento, sentí, descubrí.
+          p.text-center.mb-0 Comparación o contraste.
+          p.text-center Respuesta con una pregunta.
+    
+
+
+
+
 
 
 
