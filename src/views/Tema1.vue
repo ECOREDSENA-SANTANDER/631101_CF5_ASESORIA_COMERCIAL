@@ -785,7 +785,7 @@
             .titulo-sexto.color-secundario.mb-4
               h5 Figura 4. 
               | El método AIDA
-            img(src='@/assets/curso/temas/tema1/fig4.png', alt='')
+            img(src='@/assets/curso/temas/tema1/fig4.png', alt='La figura representa el modelo AIDA (Atención, Interés, Deseo, Acción), un proceso clave en ventas y marketing. Comienza con la captación de Atención del cliente, seguida por la identificación de sus necesidades para generar Interés. Luego, se crea el Deseo de adquirir el producto o servicio a través de una presentación efectiva y negociación, para finalmente concluir con el Cierre, que corresponde a la Acción de la compra. En el centro del proceso están los Protocolos, que incluyen técnicas de comunicación como el manejo del lenguaje corporal y verbal, y las preguntas adecuadas para guiar la interacción en cada etapa del ciclo de ventas.')
 
     p El proceso de la venta debe estar en sintonía con el proceso de compra del cliente, este ciclo de acuerdo con Antevenio (2020), consta de cuatro fases por las que atraviesa un cliente, desde que se da cuenta de su necesidad, hasta que tiene la capacidad de satisfacerla comprando el producto o servicio, las que se pueden interrelacionar con el método AIDA, como se muestra a continuación.
 
@@ -794,7 +794,7 @@
             .titulo-sexto.color-secundario.mb-4
               h5 Figura 5. 
               | El ciclo de compra y el método AIDA
-            img(src='@/assets/curso/temas/tema1/fig5.png', alt='')
+            img(src='@/assets/curso/temas/tema1/fig5.png', alt='La figura presenta una comparación entre el ciclo de compra y el modelo AIDA, destacando cómo se relacionan ambos conceptos. El ciclo de compra se compone de cuatro etapas: 1) Toma de conciencia, donde el cliente reconoce una necesidad o problema; 2) Búsqueda de información, en la que el cliente investiga opciones para resolver su necesidad; 3) Evaluación de alternativas, donde compara diferentes soluciones; y 4) Decisión de compra, donde finalmente selecciona un producto o servicio. Estos pasos se alinean con el modelo AIDA, que también tiene cuatro fases: Conciencia (correspondiente a la toma de conciencia), Deseo (relacionado con la búsqueda de información), Interés (similar a la evaluación de alternativas), y Acción (equivalente a la decisión de compra).')
             figcaption.mt-4 Nota. Adaptada de Antevenio (2020). 
 
     .row.justify-content-center.align-items-center.mb-4

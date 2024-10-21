@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-primario
       .titulo-principal__numero
         span 2
       h1 Transacciones comerciales
@@ -457,7 +457,6 @@
           p.ps-4 Sobre fletes, despachos, a quién se le hará el pago, entre otros.
       .col-sm-12.col-md-12.col-lg-4
         img(src='@/assets/curso/temas/tema2/imagen8.png', alt='')
-
 
     separador
     #t_2_4.titulo-segundo.mb-4
