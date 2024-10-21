@@ -84,7 +84,7 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '12.1',
+            numero: '2.1',
             titulo: 'Formas de pago',
             hash: 't_2_1',
           },
