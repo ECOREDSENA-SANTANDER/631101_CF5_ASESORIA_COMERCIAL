@@ -35,6 +35,8 @@
 .banner-interno__fondo    
   background-image: url("../assets/curso/portada/portada_interna.png") !important
   justify-content: space-around
+  background-repeat: no-repeat
+  background-position: cover
   
 .banner-principal__row 
   justify-content: space-around
@@ -127,10 +129,6 @@
 
 .cajon.color-acento-contenido 
   background-color: #D1BCFF
-
-.bgmoradomedio
-  background-color: #CFC4E4
-
 
 // tab tema 1
 
@@ -250,7 +248,21 @@
   border: solid 3px
   border-color: #BE79CA !important
 
-// parametros tabla tema 2
+// parametros tabla tema 2 y tema 3
 
-.borde-abajo-no
-  border-top: 0px solid white !important
+.tabla-a thead 
+    border-top: 0px solid
+
+// cuadro comillas tema 3
+
+.bgmoradomedio
+  background-color: #CFC4E4
+
+.bloque-texto-c:after 
+    content: ''
+    display: block
+    width: 0px
+    height: 0px
+    background-color: #CFC4E4
+    position: relative
+    left: calc(100% - 30px)
