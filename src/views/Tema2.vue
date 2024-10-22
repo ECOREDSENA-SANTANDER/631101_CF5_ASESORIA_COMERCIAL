@@ -166,10 +166,10 @@
               td.bg2 Vendedor
               td.bg2 Comprador
             tr
-              td El comprador pide productos
-              td Pedido
-              td Vendedor
-              td Comprador
+              td.bbabajo El comprador pide productos
+              td.bbabajo Pedido
+              td.bbabajo Vendedor
+              td.bbabajo Comprador
             tr
               td
               td Aceptación de pedido
@@ -196,27 +196,27 @@
               td.bg2 Vendedor
               td.bg2 Comprador
             tr
-              td El vendedor envía la mercancía
-              td Factura
-              td Vendedor
-              td Comprador
+              td.bbabajo El vendedor envía la mercancía
+              td.bbabajo Factura
+              td.bbabajo Vendedor
+              td.bbabajo Comprador
             tr
-              td 
-              td Recibo
-              td Vendedor
-              td Comprador
+              td.bbabajo 
+              td.bbabajo Recibo
+              td.bbabajo Vendedor
+              td.bbabajo Comprador
             tr
-              td 
-              td Letra de cambio
-              td Comprador
-              td Vendedor
+              td.bbabajo 
+              td.bbabajo Letra de cambio
+              td.bbabajo Comprador
+              td.bbabajo Vendedor
             tr
-              td 
-              td Cheque
-              td Comprador
-              td Vendedor
+              td.bbabajo 
+              td.bbabajo Cheque
+              td.bbabajo Comprador
+              td.bbabajo Vendedor
             tr
-              td 
+              td
               td Pagaré
               td Comprador
               td Vendedor

@@ -360,10 +360,10 @@
     p Después de que la empresa haya aplicado técnicas de segmentación para identificar sus mercados objetivo (es importante recordar que la empresa puede identificar múltiples segmentos, pero selecciona los más adecuados según sus recursos), y haya definido cómo quiere posicionarse en esos mercados y la comunicación que quiere dirigir a esos segmentos para darse a conocer, es momento de convertir en realidad lo planificado en el plan de mercadeo.
     p.mb-4 Realizar la venta implica un proceso tanto para el vendedor como para la empresa. Es necesario definir la mejor estrategia de venta y preparar las condiciones necesarias para llevarla a cabo. Vender es una disciplina que debe seguirse de manera organizada para alcanzar el nivel de desempeño esperado por la empresa.
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-5.p-sm-4.p-md-5
-          .bloque-texto-g__img(
+          .bloque-texto-g__img.nuevo(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/imagen9.png')})`}"
           )
           .bloque-texto-g__texto.p-4
@@ -767,6 +767,8 @@
                 p El método AIDA, es un modelo que permite presentar el producto mediante un proceso para de esa manera, poder obtener la respuesta deseada de su público objetivo:
 
     .row.justify-content-center.align-items-center.mb-4
+      .col-sm-6.col-md-6.col-lg-3
+        img(src='@/assets/curso/temas/tema1/ultima.png', alt='')
       .col-sm-12.col-md-12.col-lg-5
         TabsA.color-acento-botones
           .tarjeta.color-fondo3--borde.p-2(titulo="A")
@@ -911,18 +913,20 @@
           h3.mb-0.mt-0 Las técnicas para utilizar en la venta consultiva son:
 
     .row.justify-content-center.align-items-center.mb-4    
-      .col-sm-12.col-md-12.col-lg-5
-        .row.bg11.mx-1
-          img(src='@/assets/curso/temas/tema1/imagen17.png', alt='')
-        .row.bg10.p-5.mx-1
-          h4 #[em Cross selling] o venta cruzada
+      .col-sm-12.col-md-12.col-lg-5.mx-2
+        .row.align-items-center.justify-content-center.bg11.borde-redondo
+          .col-7
+            img.mt-4.mb-4(src='@/assets/curso/temas/tema1/imagen17.png', alt='')
+        .row.bg10.p-5
+          h4.mb-3 #[em Cross selling] o venta cruzada
           p Esta técnica se aplica cuando el cliente ha aceptado la compra, entonces se le ofrecen productos compatibles. Ejemplo: el cliente compra un computador de mesa, se le ofrece el mueble, la impresora.
-      .col-sm-12.col-md-12.col-lg-5
-        .row.bg11.mx-1
-          img(src='@/assets/curso/temas/tema1/imagen18.png', alt='')
-        .row.bg10.p-5.mx-1
+      .col-sm-12.col-md-12.col-lg-5.mx-2
+        .row.align-items-center.justify-content-center.bg11.borde-redondo
+          .col-6
+            img.mb-4.mt-2(src='@/assets/curso/temas/tema1/imagen18.png', alt='')
+        .row.bg10.p-5
           h4 #[em Upselling] o venta adicional 
-          p Esta técnica se aplica cuando el cliente desea un producto ya referenciado por él y ha aceptado la compra, entonces se le presenta otro artículo con las mismas características con mayor valor agregado y más costoso.
+          p.mb-0 Esta técnica se aplica cuando el cliente desea un producto ya referenciado por él y ha aceptado la compra, entonces se le presenta otro artículo con las mismas características con mayor valor agregado y más costoso.
 
     separador
     #t_1_7.titulo-segundo.mb-4
@@ -1009,13 +1013,8 @@
           .tarjeta.nueva
             h3.text-center.p-3.mt-3 Exigente
 
-
-
-
-
-
     separador
-    #t_1_7.titulo-segundo.mb-4
+    #t_1_8.titulo-segundo.mb-4
       h2 1.8 Manejo de objeciones
 
     p Las objeciones deben verse como algo normal en el proceso de la venta, ocurren a cada momento, y el vendedor consciente de esto, debe estar preparado y anticiparse a responder esas preguntas antes que las hagan, por eso, es fundamental el conocimiento de las necesidades del cliente. Se considera que, entre menos preguntas, la labor de ventas es más eficiente. Según Artal (2010, p. 324), “una objeción es en realidad una oportunidad”. En ella el vendedor debe ver la oportunidad de tener mejores relaciones con el cliente, y asegurar la venta.

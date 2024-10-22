@@ -173,17 +173,17 @@
                 td.bg2
                 td.bg2 Es la que mantiene la empresa con su entorno: proveedores, clientes, acreedores y públicos interesados.
               tr
-                td Según el código
-                td #[b Oral]
+                td.bbabajo Según el código
+                td.bbabajo #[b Oral]
               tr
-                td 
-                td Se da entre las personas de manera presencial o por medios electrónicos de manera sincrónica.
+                td.bbabajo 
+                td.bbabajo Se da entre las personas de manera presencial o por medios electrónicos de manera sincrónica.
               tr
-                td 
-                td #[b Escrita]
+                td.bbabajo 
+                td.bbabajo #[b Escrita]
               tr
-                td 
-                td Se da utilizando papel o medios electrónicos.
+                td.bbabajo 
+                td.bbabajo Se da utilizando papel o medios electrónicos.
               tr
                 td.bg2 Según el grado de control
                 td.bg2 #[b Formal]
