@@ -268,7 +268,7 @@ export default {
     },
     {
       referencia:
-        'Globalkam. (2021). Tipos de clientes: Cómo atenderlos para conectar en la venta. Globalkam. ',
+        'Globalkam. (2021). Tipos de clientes: Cómo atenderlos para conectar en la venta. ',
       link: 'https://globalkamconsultoresretail.com/tipos-de-clientes/',
     },
     {
@@ -280,12 +280,6 @@ export default {
       referencia:
         'Hair, J., Anderson, R., Mehta, R., y Babin, B. (2010). Administración de ventas. Cengage Learning.',
       link: '',
-    },
-    {
-      referencia:
-        'Igape-BicGalicia. (s. f.). Cómo elaborar un plan de marketing.',
-      link:
-        'http://www.igape.es/es/component/k2/item/417-como-elaborar-un-plan-de-marketing ',
     },
     {
       referencia:
@@ -319,7 +313,8 @@ export default {
       link: '',
     },
     {
-      referencia: 'Westreicher, G. (2020). Ventas.',
+      referencia:
+        'Westreicher, G. (2020). Ventas: Qué son, aproximaciones y evolución.',
       link: 'https://economipedia.com/definiciones/ventas.html',
     },
   ],
