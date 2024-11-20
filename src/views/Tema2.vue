@@ -65,7 +65,7 @@
             h4 Características de una transacción comercial
             br
             br
-            p Toda transacción comercial tiene consigo unas maneras de realizarse que la distinguen. Sy (2019), señala las siguientes características alrededor de las transacciones comerciales.      
+            p Toda transacción comercial tiene consigo unas maneras de realizarse que la distinguen. Sy (2019), señala las siguientes características alrededor de las transacciones comerciales:      
             br
             br
 
@@ -336,7 +336,7 @@
                   span.mb-0 Transferencia bancaria.
                 li 
                   i.fas.fa-check-circle
-                  span.mb-0 Medios electrónicos o pagos online.
+                  span.mb-0 Medios electrónicos o pagos #[em online].
                 li 
                   i.fas.fa-check-circle
                   span.mb-0 Cheques.
@@ -379,8 +379,7 @@
                   span.mb-0 A través de ellos se inicia el registro de las operaciones contables.
                 li 
                   i.fas.fa-check-circle
-                  span.mb-0 
-                  Permiten el control de las operaciones practicadas por la empresa (GestioPolis.com Experto, 2020).
+                  span.mb-0 Permiten el control de las operaciones practicadas por la empresa (GestioPolis.com Experto, 2020).
   
     p.mb-4 Es así como estos documentos tienen la siguiente clasificación según GestioPolis.com Experto (2020):
 

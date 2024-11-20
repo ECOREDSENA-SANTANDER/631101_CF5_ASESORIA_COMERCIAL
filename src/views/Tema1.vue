@@ -43,7 +43,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-12
         TabsB.color-primario
-          .py-4.py-md-5(titulo="Estaba de preventa" :icono="require('@/assets/curso/temas/tema1/tab1-1.png')")
+          .py-4.py-md-5(titulo="Etapa de preventa" :icono="require('@/assets/curso/temas/tema1/tab1-1.png')")
             .row.align-items-center.justify-content-center
               .col-md-6.mb-4.mb-md-0
                 p En esta etapa, el vendedor debe tener una preparación en el conocimiento del producto, su historia, su proceso, sus beneficios y ventajas, la historia de la empresa.
@@ -59,7 +59,7 @@
               .col-md-4
                 figure
                   img(src='@/assets/curso/temas/tema1/imgtab1-2.png', alt='Texto que describa la imagen')
-          .py-4.py-md-5(titulo="Etapa de venta" :icono="require('@/assets/curso/temas/tema1/tab1-3.png')")
+          .py-4.py-md-5(titulo="Etapa de posventa" :icono="require('@/assets/curso/temas/tema1/tab1-3.png')")
             .row.align-items-center.justify-content-center
               .col-md-6.mb-4.mb-md-0
                 p También se le llama “Después de la venta”. En esta etapa, el vendedor junto con la empresa deben realizar seguimiento a la venta y ver el grado de satisfacción del cliente, o tomar medidas para mejorar el proceso. El vendedor debe comunicarse con el cliente para brindar asesoría en las situaciones que lo demande, además, atender sus peticiones y reclamos.
@@ -138,7 +138,7 @@
       .col-sm-12.col-md-12.col-lg-10
         .cajon.color-acento-contenido.p-4.mb-4
           p #[b Vendedores de ventas no técnicas:] se dirigen a aquellos productos que requieren un mayor esfuerzo de ventas, y su duración va según el proceso de la venta.
-          p #[b Vendedores de ventas técnicas:] se hacen al momento del encuentro entre comprador y vendedor o venta online, debido a que las características del producto y sus necesidades de compra son inmediatas.
+          p #[b Vendedores de ventas técnicas:] se hacen al momento del encuentro entre comprador y vendedor o venta #[em online], debido a que las características del producto y sus necesidades de compra son inmediatas.
     p.mb-5 La venta tiene un comportamiento según la naturaleza de la compra o la manera de cómo se solicita la mercancía, de acuerdo con esto, Jobber y Lancaster (2012) clasifican los compradores en tres tipos de funciones:
 
     .row.justify-content-center(data-aos="fade-down").mb-3
@@ -163,7 +163,9 @@
             .p-5.mt-5
               h4.mb-4.text-center Captadores de órdenes 
               p.mb-0.text-center Procuran persuadir a los clientes de hacer un orden de pedido teniendo en cuenta su nivel de rotación de inventario, precios, facilidad de entrega, entre otros. 
-
+    
+    p.mb-4 La siguiente figura, presenta de manera más detallada la clasificación de la función de ventas:
+    
     .row.justify-content-center.align-items-center.mb-5
       .col-sm-12.col-md-12.col-lg-12
         .titulo-sexto.color-secundario.mb-4
@@ -271,13 +273,13 @@
           ul.lista-ul--color.lista-ul--separador.fa-al.mt-4
             li 
               i.fas.fa-shopping-cart
-              | Venta personal.
+              span.mb-0 Venta personal.
             li 
               i.fas.fa-shopping-cart
-              | Venta multinivel.
+              span.mb-0 Venta multinivel.
             li 
               i.fas.fa-shopping-cart
-              | Venta online o comercio electrónico.
+              span.mb-0 Venta  #[em online] o comercio electrónico.
     
     p.mb-5 A continuación, se amplía la información sobre cada una de ellas.
 
@@ -297,7 +299,7 @@
           .row.col-xl-11.m-auto(titulo="Ventas en mercados")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
-                p.mb-0 Donde se consigue una serie de locales comerciales que venden todo tipo de productos de abarrotes.
+                p.mb-0 Este tipo de venta se da en los mercados, donde se encuentran una serie de locales comerciales que venden todo tipo de productos de abarrotes.
           .row.col-xl-11.m-auto(titulo="Ventas en autoservicio")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
@@ -309,7 +311,7 @@
           .row.col-xl-11.m-auto(titulo="Venta en la propia fábrica")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
-                p.mb-0 También conocido como venta de bodega, se venden productos con el mínimo de defectos, otras están en buen estado, pero a precios cómodos.
+                p.mb-0 También conocido como venta de bodega, se venden productos con el mínimo de defectos, otros en buen estado, pero a precios cómodos para el cliente.
           .row.col-xl-11.m-auto(titulo="Venta industrial y a tiendas")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
@@ -317,7 +319,7 @@
           .row.col-xl-11.m-auto(titulo="Venta a prescriptores")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
-                p.mb-0 Esta es una especialidad de la venta en la que el vendedor basado en los beneficios y atributos de su portafolio de productos procura convencer a un referente para que otros compren. Ejemplo: los representantes de laboratorios y de casas editoriales para colegios y universidades.
+                p.mb-0 Especialidad de la venta en la que el vendedor, basado en los beneficios y atributos de su portafolio, procura convencer a un referente para que otros compren. Ejemplo: los representantes de laboratorios, casas editoriales para colegios y universidades.
           .row.col-xl-11.m-auto(titulo="Venta domiciliaria")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
@@ -553,13 +555,13 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.p-1
         .row.borde-redondo.bg6.mx-2
-          p.text-center.p-4 #[b Las características del producto, los beneficios y las ventajas.]
+          p.text-center.p-4 Las características del producto, los beneficios y las ventajas.
       .col-lg-4.p-1
         .row.borde-redondo.bg6.mx-2
-          p.text-center.p-4.mt-4 #[b Estimular el deseo en ese prospecto.]
+          p.text-center.p-4.mt-4 Estimular el deseo en ese prospecto.
       .col-lg-4.p-1
         .row.borde-redondo.bg6.mx-2
-          p.text-center.p-4 #[b Procurar involucrar al prospecto en la demostración del producto.]
+          p.text-center.p-4 Procurar involucrar al prospecto en la demostración del producto.
 
     p Existen tres tipos presentaciones:
 
@@ -571,7 +573,7 @@
           .tarjeta.color-secundario--borde.p-4(titulo="De memoria")
             p.p-4 El vendedor actúa de manera mecánica, no permite la flexibilidad ni el manejo de la presentación.
           .tarjeta.color-secundario--borde.p-4(titulo="Pinceladas")
-            p.p-4 En esta se elabora un resumen de los puntos importantes de la presentación, es más flexible que la anterior.
+            p.p-4 En esta técnica se elabora un resumen de los puntos importantes de la presentación, ofreciendo mayor flexibilidad que la anterior.
           .tarjeta.color-secundario--borde.p-4(titulo="Programada")
             p.p-4 El vendedor se apoya en ayudas que le permitan hacer mejor su presentación. Puede utilizar material audiovisual (folletos publicitarios, catálogos, vídeos, muestras del producto), y utilizar plataformas sincrónicas de ser necesario.
     
@@ -748,8 +750,8 @@
       .col-sm-12.col-md-12.col-lg-10
         figure
           .video
-            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/mwk2MnDXtPI?si=EkjyKLj5QVYpi7OA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video: Estrategias de ventas
+            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/-qE35zRZadU?si=zJBLTYz_aJAF29Gz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video: Estrategias de ventas.
 
     separador
     #t_1_5.titulo-segundo.mb-4
@@ -772,13 +774,13 @@
       .col-sm-12.col-md-12.col-lg-5
         TabsA.color-acento-botones
           .tarjeta.color-fondo3--borde.p-2(titulo="A")
-            p.p-4 #[b Atención] - Atraer la #[b atención] del cliente.
+            p.p-4 #[b Atención] - atraer la #[b atención] del cliente.
           .tarjeta.color-fondo3--borde.p-2(titulo="I")
-            p.p-4 #[b Interés] - Crear y retener el #[b interés] del cliente.
+            p.p-4 #[b Interés] - crear y retener el #[b interés] del cliente.
           .tarjeta.color-fondo3--borde.p-2(titulo="D")
-            p.p-4 #[b Deseo] - Provocar el #[b deseo] de adquirir el producto.
+            p.p-4 #[b Deseo] - provocar el #[b deseo] de adquirir el producto.
           .tarjeta.color-fondo3--borde.p-2(titulo="A")
-            p.p-4 #[b Acción] - Conseguir la #[b acción] de compra.
+            p.p-4 #[b Acción] - conseguir la #[b acción] de compra.
           
     p.mb-4 A continuación, se presenta gráficamente el método.
 
@@ -804,8 +806,8 @@
         .cajon.color-acento-contenido.p-4.mb-4
           .row.align-items-center.justify-content-center
             .col-lg-11
-              .h2 Técnica de venta basada en el método SPIN
-              p Es otra técnica de ventas que puede utilizar el vendedor según la necesidad en el proceso de ventas es el Spin Selling, creada por Neil Rackham en 1988. La técnica se basa en realizar una serie de preguntas sobre situación, problema, implicación y necesidad de pago. Cada una de las preguntas tienen un propósito claro, y se deben hacer en el orden propuesto por Rackham. 
+              .h2 Técnica de venta basada en el método #[em SPIN]
+              p Es otra técnica de ventas que puede utilizar el vendedor según la necesidad en el proceso de ventas es el #[em Spin Selling], creada por Neil Rackham en 1988. La técnica se basa en realizar una serie de preguntas sobre situación, problema, implicación y necesidad de pago. Cada una de las preguntas tienen un propósito claro, y se deben hacer en el orden propuesto por Rackham. 
 
     p Consta de cuatro etapas:
 
@@ -843,16 +845,19 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-sm-12.col-md-12.col-lg-5
-        .row.bg10.borde-redondo.p-5.mx-1
+        .row.bg10.borde-redondo.p-4.mx-1
           h4 Necesidades implícitas o generales:
-          p Son aquellas que muestran los problemas del cliente.
-          p Las muestran cuando dicen “No estoy contento con esto…”. En este punto, el cliente no está listo para comprar… todavía.
+          p Son aquellas que revelan los problemas del cliente. Estas se manifiestan cuando el cliente dice cosas como:
+          p.text-center - “No estoy contento con esto…”.
+          p.mb-5 En este punto, el cliente aún no está listo para comprar.
       .col-sm-12.col-md-12.col-lg-5
-        .row.bg10.borde-redondo.p-5.mx-1
+        .row.bg10.borde-redondo.p-4.mx-1
           h4 Necesidades explícitas o particulares: 
-          p.mb-1 Para que un cliente compre, su necesidad debe ser ya explícita, que lo esté expresando. Debe demostrarlo mediante frases que expresen deseo como “Necesito un XXX que tenga XXX característica”, si tuviéramos XXX y XXX, entonces podríamos, XXX”.
+          p Para que un cliente esté listo para comprar, su necesidad debe ser explícita y claramente expresada. Esto se demuestra mediante frases que indican un deseo específico, como:
+          p.mb-0 - “Necesito un XXX que tenga XXX característica”
+          p - si tuviéramos XXX y XXX, entonces podríamos, XXX”.
 
-    p.mb-4 Y los cuatro tipos de preguntas, que conducen al éxito en la venta SPIN, son:
+    p.mb-4 Y los cuatro tipos de preguntas, que conducen al éxito en la venta #[em SPIN], son:
 
     .row.justify-content-center.align-items-center
       .col-lg-12
@@ -1012,6 +1017,34 @@
               img(src='@/assets/curso/temas/tema1/fig1-7.png' alt='').img90
           .tarjeta.nueva
             h3.text-center.p-3.mt-3 Exigente
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-8.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Impaciente
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-9.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Negativo
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-10.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Conflictivo
+      .tarjeta.p-2
+        .row.justify-content-center
+          .col-7
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/tema1/fig1-11.png' alt='').img90
+          .tarjeta.nueva
+            h3.text-center.p-3.mt-3 Negociador
 
     separador
     #t_1_8.titulo-segundo.mb-4
@@ -1053,6 +1086,8 @@
           p.text-center.mb-0 Siento, sentí, descubrí.
           p.text-center.mb-0 Comparación o contraste.
           p.text-center Respuesta con una pregunta.
+    
+    p.text-center #[b Tenga presente que:] el manejo de objeciones es una habilidad, y solo se adquiere con la práctica permanente.
     
 
 

@@ -21,7 +21,7 @@
     #t_3_1.titulo-segundo.mb-4
       h2 3.1 Concepto y elementos
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.col-md-12.col-sm-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Concepto")
@@ -29,24 +29,51 @@
               .col-lg-6
                 p.mb-3 Desde una perspectiva general Peiró (2021), dice que
                 .row
-                  .bloque-texto-c.bgmoradomedio.p-4
-                    i.fas.fa-quote-right
-                    h5.mb-2 “La comunicación es el intercambio de información que se produce entre dos o más individuos con el objetivo de aportar información y recibirla. En este proceso intervienen un emisor y un receptor, además del mensaje que se pone de manifiesto”.
+                  .bloque-texto-b.bgmoradomedio.p-4
+                    .bloque-texto-b__texto
+                      i.fas.fa-quote-left
+                      p.mb-0 “La comunicación es el intercambio de información que se produce entre dos o más individuos con el objetivo de aportar información y recibirla. En este proceso intervienen un emisor y un receptor, además del mensaje que se pone de manifiesto”.
+                      i.fas.fa-quote-right
                     p.mb-0 Peiró (2021)
               .col-lg-6
                 img.mx-5(src='@/assets/curso/temas/tema3/imagen2.png', alt='')
             p.mb-3.mt-3 Por otro lado, la comunicación para la empresa es según Pérez et al. (2013) es:
-            h5 “una actividad organizada y desarrollada por personas, que, además, persigue obtener beneficios, es imprescindible” (p. 48). 
+            p “una actividad organizada y desarrollada por personas, que, además, persigue obtener beneficios, es imprescindible” (p. 48). 
           .row.col-xl-11.m-auto(titulo="Elementos")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
                 p.mb-3 Los elementos que intervienen en el proceso de la comunicación según Peiró (2021) son esenciales para que el proceso se lleve a cabo de manera eficaz; y es necesario que intervengan una serie de elementos. Estos son los principales:
                 .row.align-items-center.justify-content-center
-                  .col-lg-8
+                  .col-lg-9
                     .titulo-sexto.color-secundario.mb-4
                       h5 Figura 6. 
                       | Elementos de la comunicación
                     img(src='@/assets/curso/temas/tema3/fig1.png', alt='La figura presenta dos personas ubicadas a cada costado, ilustrando el proceso de comunicación. Entre ellas se destacan los elementos que hacen parte de este proceso, definidos a través de puntos calientes: Emisor: la persona que emite el mensaje. Receptor: la persona o personas que reciben el mensaje del emisor. Mensaje: es la información, los datos que transmite el emisor para que lleguen al receptor de forma óptima. Canal: es el medio por el que se transmite el mensaje. Pueden ser los diferentes medios de comunicación masiva, internet u otro medio. Código: son el conjunto de símbolos y signos que configuran el mensaje. Contexto: es el ambiente, lugar, tiempo desde donde se transmite el mensaje.')
+
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/pc1.png', alt='Texto que describa la imagen')
+          .tarjeta.morado-claro.p-3(x="19%" y="54%" numero="1")
+            p.mb-0 #[b 1. Emisor] 
+            p La persona que emite el mensaje.
+          .tarjeta.morado-claro.p-3(x="31%" y="54%" numero="2")
+            p.mb-0 #[b 2. Receptor] 
+            p La persona o personas que reciben el mensaje del emisor.
+          .tarjeta.morado-claro.p-3(x="44%" y="54%" numero="3")
+            p.mb-0 #[b 3. Mensaje] 
+            p Es la información, los datos que transmite el emisor para que lleguen al receptor de forma óptima.
+          .tarjeta.morado-claro.p-3(x="56%" y="54%" numero="4")
+            p.mb-0 #[b 4. Canal]  
+            p Es el medio por el que se transmite el mensaje. Pueden ser los diferentes medios de comunicación masiva, internet u otro medio.
+          .tarjeta.morado-claro.p-3(x="69%" y="54%" numero="5")
+            p.mb-0 #[b 5. Código]  
+            p Son el conjunto de símbolos y signos que configuran el mensaje.
+          .tarjeta.morado-claro.p-3(x="81%" y="54%" numero="6")
+            p.mb-0 #[b 6. Contexto]  
+            p Es el ambiente, lugar, tiempo desde donde se transmite el mensaje.
 
     separador
     #t_3_2.titulo-segundo.mb-4
@@ -60,10 +87,10 @@
           .col-lg-3
             .row.mx-4.mt-5
               h5.bg3.text-white.text-center.mb-0 Herramientas
-          p.mb-2.ps-5.mt-4 Las herramientas más utilizadas para la comunicación de las personas y las organizaciones en actividades online y offline aportadas por Conecta DEL (s. f.):
+          p.mb-2.ps-5.mt-4 Las herramientas más utilizadas para la comunicación de las personas y las organizaciones en actividades #[em online] y #[em offline] aportadas por Conecta DEL (s. f.):
         .row.mx-4
           .col-lg-6.mt-4
-            p.mb-3 #[b Herramientas de comunicación persona]
+            p.mb-3 #[b Herramientas de comunicación personal]
             ul.lista-ul--color.fa-al
               li 
                 i.fas.fa-check-circle
@@ -88,23 +115,23 @@
             ul.lista-ul--color.fa-al
               li 
                 i.fas.fa-check-circle
-                span.mb-0 Google Group. 
+                span.mb-0 Google #[em Group]. 
               li 
                 i.fas.fa-check-circle
-                span.mb-0 Facebook Group.
+                span.mb-0 Facebook #[em Group].
               li 
                 i.fas.fa-check-circle
-                span.mb-0 WhatsApp Group.
+                span.mb-0 WhatsApp #[em Group].
             p.mb-3 #[b Herramientas para la organización de tareas]
             .row.align-items-center.justify-content-center
               .col-lg-6
                 ul.lista-ul--color.fa-al
                   li 
                     i.fas.fa-check-circle
-                    span.mb-0 Google Calendar. 
+                    span.mb-0 Google #[em Calendar]. 
                   li 
                     i.fas.fa-check-circle
-                    span.mb-0 Google Docs.
+                    span.mb-0 Google #[em Docs].
                   li 
                     i.fas.fa-check-circle
                     span.mb-0 Dropbox.
@@ -138,6 +165,7 @@
     separador
     #t_3_3.titulo-segundo.mb-4
       h2 3.3	Tipos de comunicación
+    p.mb-4 La comunicación es una variable estratégica en las organizaciones para interactuar con sus públicos, siendo fundamental para la toma de decisiones. El éxito de una empresa depende de la habilidad de comunicación entre sus dependencias y directivos. Al respecto, Pérez et al. (2013) presentan la siguiente clasificación:
 
     .row.align-items-center.justify-content-center.mb-4
       .col-sm-12.col-md-12.col-lg-10
@@ -239,7 +267,7 @@
     #t_3_4.titulo-segundo.mb-4
       h2 3.4 Medios de comunicación
 
-    p Estos son instrumentos utilizados por la empresa o la organización para dar a conocer sus mensajes, información y su información publicitaria, entre otros. La empresa utiliza estos medios de manera masiva utilizando medios off-line u on-line.
+    p Estos son instrumentos utilizados por la empresa o la organización para dar a conocer sus mensajes, información y su información publicitaria, entre otros. La empresa utiliza estos medios de manera masiva utilizando medios #[em off-line] u #[em on-line].
     p.mb-4 Existen divisiones de medios de comunicación generadas por la gestión del mercadeo. Es la comunicación que llega a un gran número de personas en un periodo de tiempo determinado; y los medios son:
 
     .row.justify-content-center.align-items-center
@@ -273,7 +301,7 @@
                     span.mb-0 Plegables.
                   li 
                     i.fas.fa-check-circle
-                    span.mb-0 Material POP (Point of Purchase).
+                    span.mb-0 Material POP (#[em Point of Purchase]).
                   li 
                     i.fas.fa-check-circle
                     span.mb-0 Vallas fijas.

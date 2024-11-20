@@ -14,8 +14,8 @@
       .col-sm-12.col-md-12.col-lg-10
         figure
           .video
-            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/uxUsQS5gvQs?si=CiYDKHqzFJe5H84g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video: Ventas y comunicación: introducción
+            iframe(iframe width="560" height="315" src="https://www.youtube.com/embed/GPUPFqO-rMM?si=J7GZAY9p76fUKY_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video: Ventas y comunicación introducción.
 
     
 </template>

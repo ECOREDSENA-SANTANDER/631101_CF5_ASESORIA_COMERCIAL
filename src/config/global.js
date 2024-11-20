@@ -388,23 +388,18 @@ export default {
           cargo: 'Animador y producción audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
-        {
-          nombre: 'Falta ',
-          cargo: 'Actividad didáctica',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'falta nombre',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'falta nombre',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

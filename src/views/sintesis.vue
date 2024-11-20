@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativo Ventas y comunicación, desde el proceso, herramientas, estrategias y técnicas asociadas a las ventas, se incluyen adicionalmente las transacciones comerciales, así como los conceptos que se derivan de esta temática, y finalmente los relacionados con la comunicación, tipos y medios, que de manera articulada con las ventas y las transacciones comerciales, se complementan en un proceso integral e indispensable en el retail.
+    p.mb-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativo Ventas y comunicación, desde el proceso, herramientas, estrategias y técnicas asociadas a las ventas, se incluyen adicionalmente las transacciones comerciales, así como los conceptos que se derivan de esta temática, y finalmente los relacionados con la comunicación, tipos y medios, que de manera articulada con las ventas y las transacciones comerciales, se complementan en un proceso integral e indispensable en el #[em retail].
 
     .row.justify-content-center
       .col-lg-10.mb-5
