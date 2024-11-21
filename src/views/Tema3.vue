@@ -167,66 +167,29 @@
       h2 3.3	Tipos de comunicación
     p.mb-4 La comunicación es una variable estratégica en las organizaciones para interactuar con sus públicos, siendo fundamental para la toma de decisiones. El éxito de una empresa depende de la habilidad de comunicación entre sus dependencias y directivos. Al respecto, Pérez et al. (2013) presentan la siguiente clasificación:
 
-    .row.align-items-center.justify-content-center.mb-4
-      .col-sm-12.col-md-12.col-lg-10
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th.bg3.text-white Título componente
-                th.bg3.text-white Pestañas verticales
-            tbody
-              tr
-                td Título
-                td Tipos de comunicación
-              tr
-                td.bg2 Texto descriptivo
-                td.bg2 Tipos de comunicación
-              tr
-                td Título (máx 6 palabras)
-                td Texto
-              tr
-                td.bg2 Según el ámbito
-                td.bg2 #[b Interna]
-              tr
-                td.bg2 
-                td.bg2 #[b * Vertical:] se da entre la dirección y los empleados. 
-              tr
-                td.bg2 
-                td.bg2 #[b * Horizontal:] se da entre empleados del mismo nivel.
-              tr
-                td.bg2 
-                td.bg2 #[b Externa]
-              tr
-                td.bg2
-                td.bg2 Es la que mantiene la empresa con su entorno: proveedores, clientes, acreedores y públicos interesados.
-              tr
-                td.bbabajo Según el código
-                td.bbabajo #[b Oral]
-              tr
-                td.bbabajo 
-                td.bbabajo Se da entre las personas de manera presencial o por medios electrónicos de manera sincrónica.
-              tr
-                td.bbabajo 
-                td.bbabajo #[b Escrita]
-              tr
-                td.bbabajo 
-                td.bbabajo Se da utilizando papel o medios electrónicos.
-              tr
-                td.bg2 Según el grado de control
-                td.bg2 #[b Formal]
-              tr
-                td.bg2 
-                td.bg2 Se utiliza para dar información sobre temas referente a la organización.
-              tr
-                td.bg2 
-                td.bg2 #[b Informal]
-              tr
-                td.bg2 
-                td.bg2 Se da de manera espontánea entre compañeros o con personas externas a la organización.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-9.col-md-12.col-sm-12
+        TabsA.color-acento-botones
+          .tarjeta.color-secundario--borde.p-4(titulo="Según el ámbito")
+            p.mb-0 #[b Interna]
+            p.mb-0 • Vertical: se da entre la dirección y los empleados.
+            p • Horizontal: se da entre empleados del mismo nivel.
+            p.mb-0 #[b Externa]
+            p Es la que mantiene la empresa con su entorno: proveedores, clientes, acreedores y públicos interesados.
+          .tarjeta.color-secundario--borde.p-4(titulo="Según el código")
+            p.mb-0 #[b Oral]
+            p Se da entre las personas de manera presencial o por medios electrónicos de manera sincrónica.
+            p.mb-0 #[b Escrita]
+            p Se da utilizando papel o medios electrónicos.
+          .tarjeta.color-secundario--borde.p-4(titulo="Según el grado de control")
+            p.mb-0 #[b Formal]
+            p Se utiliza para dar información sobre temas referente a la organización.
+            p.mb-0 #[b Informal]
+            p Se da de manera espontánea entre compañeros o con personas externas a la organización.
+      .col-lg-3.col-md-6.col-6
+        img(src='@/assets/curso/temas/tema3/imagen11.png', alt='')
 
-    p.mb-4 La comunicación es una variable estratégica en las organizaciones para interactuar con sus públicos, siendo fundamental para la toma de decisiones. El éxito de una empresa depende de la habilidad de comunicación entre sus dependencias y directivos. Al respecto, Pérez et al. (2013) presentan la siguiente clasificación:
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.col-md-12.col-sm-12
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row.col-xl-11.m-auto(titulo="Comunicación interna")
@@ -262,7 +225,9 @@
                   li 
                     i.fas.fa-check-circle
                     span.mb-0 Otras de relaciones públicas.
-
+    
+    p La comunicación es indispensable en el proceso de venta, donde interactúan el vendedor y el cliente. Durante este proceso, se aplican técnicas de ventas y se abordan objeciones, elementos imprescindibles para el cierre exitoso de la venta.
+    
     separador
     #t_3_4.titulo-segundo.mb-4
       h2 3.4 Medios de comunicación

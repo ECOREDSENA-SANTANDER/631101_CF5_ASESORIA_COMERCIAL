@@ -216,7 +216,7 @@ export default {
     {
       termino: 'Proceso de ventas',
       significado:
-        '“El proceso de venta es la sucesión de pasos que una empresa realiza desde el momento en que intenta captar la atención de un potencial cliente hasta que la transacción final se lleva a cabo” (InboundCycle, 2020).',
+        'es la sucesión de pasos que una empresa realiza desde el momento en que intenta captar la atención de un potencial cliente hasta que la transacción final se lleva a cabo” (InboundCycle, 2020).',
     },
     {
       termino: 'Clínica de ventas',
@@ -226,7 +226,7 @@ export default {
     {
       termino: 'Cierre de ventas',
       significado:
-        '“El cierre de ventas se refiere a una parte del proceso de ventas donde (después de haber presentado el producto o servicio y aclarado las dudas existentes) se tiende a cerrar la negociación y el prospecto de venta se convierte en cliente” (DocuSign, 2020).',
+        'se refiere a una parte del proceso de ventas donde (después de haber presentado el producto o servicio y aclarado las dudas existentes) se tiende a cerrar la negociación y el prospecto de venta se convierte en cliente” (DocuSign, 2020).',
     },
     {
       termino: 'Comunicación asertiva',
